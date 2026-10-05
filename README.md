@@ -1,10 +1,9 @@
-## 🚀 Live Demo
-[HealthConnect – Doctor Appointment System](https://healthconnect-doctor-appointment-sy-one.vercel.app/)
-
 # HealthConnect – Doctor Appointment System
+
 HealthConnect is a full-stack doctor appointment platform designed
 to simplify the process of discovering doctors, booking appointments,
 and managing healthcare interactions.
+
 ## Tech Stack
 
 - Frontend: React.js, Tailwind CSS
@@ -14,6 +13,7 @@ and managing healthcare interactions.
 - Cloud Storage: Cloudinary
 - Payment Gateway: Razorpay
 - Deployment: Vercel + Render
+
 ## 🔑 Key Features
 
 ### 1. Three-Level Authentication
@@ -120,7 +120,7 @@ To set up and run this project locally:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Pratyushchouksey/Healthconnect-Doctor-Appointment-System.git
-   cd Healthconnect-Doctor-Appointment-System
+cd Healthconnect-Doctor-Appointment-System
    ```
 
 2. **Install Dependencies**:

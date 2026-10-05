@@ -11,11 +11,11 @@ const Footer = () => {
           <img
             className="w-28 mt-1"
             src={assets.logo}
-            alt="Appointy Logo"
+            alt="HealthConnect Logo"
           />
 
           <p className="text-gray-600 leading-6 md:max-w-[75%]">
-            <strong>Appointy – Effortless Healthcare Scheduling</strong>
+            <strong>HealthConnect – Doctor Appointment System</strong>
             <br />
             Patients can instantly book appointments with trusted doctors—from
             routine check-ups to specialist care—in just a few clicks. Our smart
