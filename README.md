@@ -52,7 +52,7 @@ and managing healthcare interactions.
 
 ## 📄 About Page
 
-- Provides information about **Appointy’s vision** and mission.
+- Provides information about **HealthConnect’s vision** and mission.
 - **Why Choose Us** section highlights:
   - **Efficiency**: Streamlined appointment process.
   - **Convenience**: Online booking and payment.
@@ -130,35 +130,69 @@ cd Healthconnect-Doctor-Appointment-System
    npm install
    ```
 
-3. **Environment Variables**:
-   - Create a `.env` file in the root directory and add the following:
-     ```env
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     STRIPE_API_KEY=your_stripe_api_key
-     RAZORPAY_API_KEY=your_razorpay_api_key
-     ```
+3. ### 3. **Environment Variables**
+
+Create `.env` files in the required project directories.
+
+#### Backend (`backend/.env`)
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+ADMIN_EMAIL=your_admin_email
+ADMIN_PASSWORD=your_admin_password
+CLOUDINARY_NAME=your_cloudinary_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_SECRET_KEY=your_cloudinary_secret_key
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+CURRENCY=your_currency
 
 4. **Run the Application**:
-   ```bash
-   npm run dev
-   ```
+Backend
+  cd backend
+  npm install
+  npm start
 
-## 📦 Folder Structure
+Frontend
+  cd frontend
+  npm install
+  npm run dev
 
-```plaintext
-appointy/
-├── client/          # Frontend (React.js)
-├── server/          # Backend (Node.js, Express.js)
-├── models/          # MongoDB Schemas
-├── controllers/     # API Controllers
-├── routes/          # API Routes
-├── middleware/      # Authentication and Error Handling
-├── config/          # Configuration Files
-├── utils/           # Utility Functions
-├── public/          # Static Files
-└── .env             # Environment Variables
-```
+Admin Dashboard
+  cd admin
+  npm install
+  npm run dev
+
+## 📁 Folder Structure
+
+```text
+HealthConnect/
+├── frontend/                 # Patient Frontend (React.js)
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   └── pages/
+│   └── package.json
+│
+├── admin/                    # Admin Dashboard (React.js)
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   └── pages/
+│   └── package.json
+│
+├── backend/                  # Backend API (Node.js + Express.js)
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── scripts/
+│   └── server.js
+│
+├── README.md
+└── .gitignore
 
 ## 🤝 Contributing
 
@@ -167,6 +201,6 @@ We welcome contributions! Please feel free to submit issues, fork the repository
 
 ## 🌟 Acknowledgements
 
-- Thanks to the developers and contributors of MongoDB, Express.js, React.js, Node.js, Stripe, and Razorpay for their fantastic tools and libraries.
+- - Thanks to the developers and contributors of MongoDB, Express.js, React.js, Node.js, Cloudinary, and Razorpay for their fantastic tools and libraries.
 
 ---
