@@ -119,8 +119,8 @@ To set up and run this project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/appointy.git
-   cd appointy
+   git clone https://github.com/Pratyushchouksey/Healthconnect-Doctor-Appointment-System.git
+   cd Healthconnect-Doctor-Appointment-System
    ```
 
 2. **Install Dependencies**:
